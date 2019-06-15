@@ -1,3 +1,4 @@
+
 #!/bin/bash
 #
 # Copyright (C) 2016 The CyanogenMod Project
@@ -17,7 +18,7 @@
 
 set -e
 
-export DEVICE=h811
+export DEVICE=vs986_usu
 export VENDOR=lge
 
 # Use common extractor
