@@ -1,3 +1,5 @@
+
+vendor/firmware/BCM4339_003.001.009.0117.0621_LGE_P1_VZW.hcd
 etc/acdbdata/General_cal.acdb
 etc/acdbdata/Hdmi_cal.acdb
 etc/acdbdata/Speaker_cal.acdb
@@ -16,5 +18,14 @@ etc/firmware/venus.b04
 etc/firmware/venus.mdt
 etc/firmware/fw_bcmdhd_mfg.bin
 etc/firmware/venus.b02
+lib/libvss_common_iface.so
+lib64/libvss_common_iface.so
+lib/libalmalib.so
+lib/libvss_common_idl.so
+lib64/libvss_common_idl.so
+lib/libvss_nv_iface.so
+lib64/libvss_nv_iface.so
+lib/libvss_nv_idl.so
+lib64/libvss_nv_idl.so
 vendor/lib/libacdbloader.so
 vendor/lib64/libacdbloader.so
