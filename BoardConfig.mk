@@ -18,13 +18,15 @@
 -include device/lge/g4-common/BoardConfigCommon.mk
 
 # Partitions
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4492099584
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 24935137280
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4341104640
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 24897388544
 
-TARGET_OTA_ASSERT_DEVICE := g4,p1,h811,ls991_UsU
+BOARD_DISABLE_BLOCK_BASED_OTA := true
+
+TARGET_OTA_ASSERT_DEVICE := g4,p1,vs986,vs986_usu
 
 # Kernel
-TARGET_KERNEL_CONFIG := los_h811_defconfig
+TARGET_KERNEL_CONFIG := usu_vs986_defconfig
 
 # inherit from the proprietary version
 -include vendor/lge/h811/BoardConfigVendor.mk
